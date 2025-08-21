@@ -190,7 +190,7 @@ DATABASE_NAME = "weiqi_game"
 
 如有问题或建议，请通过以下方式联系：
 - GitHub Issues: [提交问题](https://github.com/fg6678/weiqi-ai-game/issues)
-- Email: [你的邮箱]
+- Email: 3579342583@qq.com
 
 ---
 
