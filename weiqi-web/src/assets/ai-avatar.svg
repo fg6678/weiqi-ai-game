@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-labelledby="title desc"> 
+   <title id="title">AI 围棋助手图标</title> 
+   <desc id="desc">极简棋盘、落子与一支笔，单色 #00ff88。</desc> 
+ 
+   <!-- 棋盘：3x3 简化网格 --> 
+   <g stroke="#00ff88" stroke-width="3" stroke-linecap="round" opacity="0.95"> 
+     <!-- 竖线 --> 
+     <path d="M32 28v72"/> 
+     <path d="M64 28v72"/> 
+     <path d="M96 28v72"/> 
+     <!-- 横线 --> 
+     <path d="M28 32h72"/> 
+     <path d="M28 64h72"/> 
+     <path d="M28 96h72"/> 
+   </g> 
+ 
+   <!-- 落子 --> 
+   <circle cx="64" cy="64" r="9" fill="#00ff88"/> 
+ 
+   <!-- 笔（右下角，轻微倾斜） --> 
+   <g transform="translate(0,0) rotate(-28 92 92)"> 
+     <!-- 笔杆 --> 
+     <rect x="90" y="72" width="4" height="28" rx="2" fill="#00ff88"/> 
+     <!-- 笔尾帽 --> 
+     <rect x="89" y="72" width="6" height="5" rx="2" fill="#00ff88" /> 
+     <!-- 笔尖 --> 
+     <polygon points="90,100 94,100 92,106" fill="#00ff88"/> 
+   </g>
+</svg>
